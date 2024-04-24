@@ -1,4 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-[foo, bar] = [bar, foo];
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const lastElement = arr => arr[arr.length - 1];
