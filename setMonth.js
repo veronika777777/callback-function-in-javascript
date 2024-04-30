@@ -1,2 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const lastElement = arr => arr[arr.length - 1];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
