@@ -1,2 +1,1 @@
-const merge = [...new Set(a.concat(b))];
-console.log("0 || 1 = "+(0 || 1));
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
