@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const uniqueArray = arr => [...new Set(arr)];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
