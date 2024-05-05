@@ -1,5 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const removeDuplicates = (arr) => [...new Set(arr)];
-const merge = (a, b) => [...a, ...b];
+const goToTop = () => window.scrollTo(0, 0);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const value = ( 5 < 7 ) ? "True" : "False" ;
