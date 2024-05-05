@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+[foo, bar] = [bar, foo];
+const isArray = (arr) => Array.isArray(arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
