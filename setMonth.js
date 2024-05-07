@@ -1,2 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const channelName = getChannelName(channel);
+var arr1 = "john".split('');
