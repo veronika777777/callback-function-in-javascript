@@ -1,2 +1,1 @@
-const channelName = getChannelName(channel);
-var arr1 = "john".split('');
+const goToTop = () => window.scrollTo(0, 0);
