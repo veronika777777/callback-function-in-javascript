@@ -1,5 +1,3 @@
-console.log(false === '0');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-console.log("1 || 2 = "+(1 || 2));
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const stringReverse = str => str.split("").reverse().join("");
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
