@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-var c = new Counter(); c.add(); c.add(); c.add();
+const fullName = name || 'buddy';
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const value = ( 5 < 7 ) ? "True" : "False" ;
