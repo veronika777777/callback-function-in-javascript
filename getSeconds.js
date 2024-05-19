@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
