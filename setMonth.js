@@ -1,2 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log(typeof typeof 1);
+console.log( "A" - "B" + 2);
