@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const goToTop = () => window.scrollTo(0, 0);
-const merge = (a, b) => [...a, ...b];
+const randomBoolean = () => Math.random() >= 0.5;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
