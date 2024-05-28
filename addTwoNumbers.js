@@ -1,3 +1,3 @@
-console.log(+"1" +  "1" + "2");
-const uniqueArr = (arr) => [...new Set(arr)];
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var arr2 = arr1.reverse();
+const appName = getAppName(channel);
