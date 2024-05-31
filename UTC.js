@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-var arr3 = "jones".split('');
+console.log("0 && 1 = "+(0 && 1));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const isEmptyArray = arr => !arr.length;
