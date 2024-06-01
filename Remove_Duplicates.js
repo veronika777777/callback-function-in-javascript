@@ -1,1 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log( "A" - "B" + 2);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
