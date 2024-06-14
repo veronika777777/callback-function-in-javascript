@@ -1,2 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + 2);
+const updated = numbers.filter(element => element > 6);
