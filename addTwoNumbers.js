@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-console.log( "A" - "B" + "2");
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const results = await Promise.all(resultingPromises);
