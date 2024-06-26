@@ -1,1 +1,1 @@
-const minNumber = arr => Math.min(...arr);
+const merge = Object.assign({}, obj1, obj2);
