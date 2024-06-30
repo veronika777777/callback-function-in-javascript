@@ -1,3 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const results = await Promise.all(resultingPromises);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const fullName = name || 'buddy';
+const isWeekday = (date) => date.getDay() % 6 !== 0;
