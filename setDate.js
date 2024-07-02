@@ -1,3 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const value = ( 5 < 7 ) ? "True" : "False" ;
-[foo, bar] = [bar, foo];
+console.log("0 && 1 = "+(0 && 1));
+const getRandomBoolean = () => Math.random() >= 0.5;
