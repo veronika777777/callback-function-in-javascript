@@ -1,2 +1,2 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const channel = getChannel(computedAppVersion);
