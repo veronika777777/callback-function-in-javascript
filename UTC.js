@@ -1,1 +1,1 @@
-console.log(1 +  "2" + "2");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
