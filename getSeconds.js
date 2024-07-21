@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const channel = getChannel(computedAppVersion);
+const repositoryRootPath = path.resolve(__dirname, '..');
+const fullName = name || 'buddy';
+const symbolsPath = path.join(buildOutputPath, 'symbols');
