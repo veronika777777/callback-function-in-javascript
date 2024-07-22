@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const merge = (a, b) => [...a, ...b];
-console.log(1 +  +"2" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
+console.log("1 || 2 = "+(1 || 2));
