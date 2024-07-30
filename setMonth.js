@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-[foo, bar] = [bar, foo];
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
