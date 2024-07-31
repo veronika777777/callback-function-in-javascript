@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log("0 || 1 = "+(0 || 1));
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
