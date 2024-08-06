@@ -1,3 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log("0 || 1 = "+(0 || 1));
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const minNumber = arr => Math.min(...arr);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
